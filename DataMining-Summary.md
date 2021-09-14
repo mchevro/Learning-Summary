@@ -5,6 +5,10 @@ Data mining adalah serangkaian proses untuk menggali nilai tambah berupa informa
 Data mining juga digunakan untuk mencari pengetahuan yang terdapat dalam basis data sehingga sering disebut **Knowledge Discovery Databases (KDD).**
 
 ## Proses Tahapan Data Mining
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/67460437/133336650-ea55e8d5-e629-49cd-bb19-8707c8459373.PNG">
+</p>
+
 *KDD* berhubungan dengan teknik integrasi dan penemuan ilmiah, interpretasi dan visualisasi dari pola-pola sejumlah data.
 Serangkaian proses tersebut memiliki tahapan sebagai berikut : 
 1. Pembersihan data (Untuk membuang data yang tidak konsisten dan noise)
@@ -13,3 +17,4 @@ Serangkaian proses tersebut memiliki tahapan sebagai berikut :
 4. Aplikasi teknik Data Mining, proses ekstrasi pola dari data yang ada
 5. Evaluasi pola yang ditemukan (Proses interpretasi pola menjadi pengetahuan yang dapat digunakan untuk mendukung pengambilan keputusan)
 6. Presentasi pengetahuan (dengan teknik visualisasi)
+
