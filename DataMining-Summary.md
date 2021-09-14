@@ -18,3 +18,15 @@ Serangkaian proses tersebut memiliki tahapan sebagai berikut :
 5. Evaluasi pola yang ditemukan (Proses interpretasi pola menjadi pengetahuan yang dapat digunakan untuk mendukung pengambilan keputusan)
 6. Presentasi pengetahuan (dengan teknik visualisasi)
 
+Tahap ini merupakan bagian dari proses pencarian pengetahuan yang mencakup pemeriksaan apakah pola atau informasi yang ditemukan bertentangan dengan fakta atau hipotesa yang ada sebelumnya.
+
+## Manfaat Data Mining
+Pemanfaatan Data Mining dilihat dari dua sudut pandang **komersil** dan **ilmiah**.
+|                                   KOMERSIL                                  |                                ILMIAH                               |
+|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| `Mengetahui Hilangnya Pelanggan karena Pesaing`                             | `Remote Sensor`                                                     |
+| `Mengetahui Item Produk atau Konsumen Yang Memiliki Kesamaan Karakteristik` | `Telescope Yang Digunakan Untuk Memindai Langit`                    |
+| `Identifikasi Produk Yang Terjual Bersamaan Dengan Produk Lain`             | `Simulasi Saintifik Yang Membangkitkan Data Dalam Ukuran Terabytes` |
+| `Prediksi Tingkat Penjualan`                                                |                                                                     |
+| `Menilai Tingkat Resiko Untuk Jumlah Produksi Suatu Item`                   |                                                                     |
+| `Prediksi Perilaku Bisnis Dimasa Yang Akan Datang`                          |                                                                     |
