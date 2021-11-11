@@ -25,6 +25,18 @@ int main() {
 }
 ```
 
+## Konstanta
+### Pengertian
+Konstanta adalah suatu nilai yang sifatnya tetap. Secara garis besar konstanta dapat dibagi menjadi dua bagia, yaitu : <br>
+- Konstanta Bilangan
+- Konstanta Teks
+### Syntax
+```c++
+const tipe_data nama_konstanta = nilai_konstanta; //Syntax
+
+const float phi = 3.14; //Example
+```
+
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
