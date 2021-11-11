@@ -68,3 +68,4 @@ cout << "Nama Hero : " << nama_hero; //Example
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
+- https://www.cplusplus.com/reference/cstdio/printf/
