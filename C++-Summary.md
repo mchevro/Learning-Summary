@@ -58,10 +58,10 @@ Perintah keluar digunakan untuk menampilkan informasi program ke layar.
 ### Syntax
 ```C++
 printf("String", argumen-1, argumen-2, dst); //Template
-cout << string/argumen;
+cout << string/argumen; //Template
 
-printf("Nama Hero : %s", nama_hero);
-cout << "Nama Hero : " << nama_hero;
+printf("Nama Hero : %s \n", nama_hero.c_str()); //Example
+cout << "Nama Hero : " << nama_hero; //Example
 ```
 
 ## Refrensi :
