@@ -14,6 +14,17 @@
 |     `Double`     |     8 Byte    |                     +/- 1.8 x 10308                    | Bilangan Dengan Nilai Pecahan Lebih Akurat |
 |     `Boolean`    |               |                       True/False                       | Merepresentasikan Nilai True/False         |
 
+## Basic Program
+```c++
+#include <iostream> //File Header
+using namespace std; //Perintah Untuk Menggunakan Seluruh Library Standart
+
+int main() {
+    cout << "Hii"; 
+    return 0;
+}
+```
+
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
