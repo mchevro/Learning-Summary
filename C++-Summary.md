@@ -13,3 +13,7 @@
 |      `Float`     |     4 Byte    |                     +/- 3.4 x 1038                     | Bilangan Dengan Nilai Pecahan              |
 |     `Double`     |     8 Byte    |                     +/- 1.8 x 10308                    | Bilangan Dengan Nilai Pecahan Lebih Akurat |
 |     `Boolean`    |               |                       True/False                       | Merepresentasikan Nilai True/False         |
+
+## Refrensi :
+- "Buku Panduan Pemrograman C++" Frieyadie
+- https://www.geeksforgeeks.org/c-data-types/
