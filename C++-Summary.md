@@ -41,8 +41,8 @@ const float phi = 3.14; //Example
 ### Pengertian
 Variable adalah suatu tempat untuk menampung data dimemori yang mempunyai nilai atau data yang dapat berubah-ubah selama proses program.
 ### Ketentuan
-- Tidak boleh ada spasi (ex: nama siswa), untuk spasi bisa diganti dengan tanda garis bawah (ex: nama_siswa).
-- Tidak boleh diawali dengan angka dan operator aritmatika
+- Tidak boleh ada spasi (ex: nama hero), untuk spasi bisa diganti dengan tanda garis bawah (ex: nama_hero).
+- Tidak boleh diawali dengan angka dan operator aritmatika.
 
 ### Syntax
 ```c++
@@ -50,6 +50,18 @@ tipe_data nama_variable = nilai_variable; //Template
 
 string nama_hero = "Alucard"; //Example
 
+```
+
+## Perintah Keluaran
+### Pengertian
+Perintah keluar digunakan untuk menampilkan informasi program ke layar.
+### Syntax
+```C++
+printf("String", argumen-1, argumen-2, dst); //Template
+cout << string/argumen;
+
+printf("Nama Hero : %s", nama_hero);
+cout << "Nama Hero : " << nama_hero;
 ```
 
 ## Refrensi :
