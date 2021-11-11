@@ -32,9 +32,24 @@ Konstanta adalah suatu nilai yang sifatnya tetap. Secara garis besar konstanta d
 - Konstanta Teks
 ### Syntax
 ```c++
-const tipe_data nama_konstanta = nilai_konstanta; //Syntax
+const tipe_data nama_konstanta = nilai_konstanta; //Template
 
 const float phi = 3.14; //Example
+```
+
+## Variable
+### Pengertian
+Variable adalah suatu tempat untuk menampung data dimemori yang mempunyai nilai atau data yang dapat berubah-ubah selama proses program.
+### Ketentuan
+- Tidak boleh ada spasi (ex: nama siswa), untuk spasi bisa diganti dengan tanda garis bawah (ex: nama_siswa).
+- Tidak boleh diawali dengan angka dan operator aritmatika
+
+### Syntax
+```c++
+tipe_data nama_variable = nilai_variable; //Template
+
+string nama_hero = "Alucard"; //Example
+
 ```
 
 ## Refrensi :
