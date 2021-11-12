@@ -225,6 +225,29 @@ if(umur <= 18){
 }
 ```
 
+### IF - ELSE Majemuk
+Bentuk dari if-else majemuk sebernya mirip dengan nested if. Keuntungan penggunaan if-else majemuk dibanding dengan nested if adalah bentuk penulisanya yang lebih sederhana.
+#### Syntax
+```C++
+//Template
+if(kondisi){
+    perintah;
+}else if(kondisi){
+    perintah;
+}else{
+    perintah;
+}
+
+//Example
+int umur = 15; 
+if(umur <= 10){
+    cout << "Anak-Anak";
+}else if(umur <= 18){
+    cout << "Remaja";
+}else{
+    cout << "Bukan Usia Anak Maupun Remaja";
+}
+```
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
