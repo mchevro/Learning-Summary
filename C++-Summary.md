@@ -197,8 +197,37 @@ if(10 > 20){
 }
 ```
 
+### Nested IF
+Nested if merupakan pernyataan if yang berada di dalam pernyataan if yang lain.
+#### Syntax
+```C++
+//Template
+if(kondisi){
+    if(kondisi){
+        perintah;
+    }else{
+        perintah;
+    }
+}else{
+    perintah;
+}
+
+//Example
+int umur = 15; 
+if(umur <= 18){
+    if(umur<= 10){
+        cout << "Anak-Anak";
+    }else{
+        cout << "Remaja";
+    }
+}else{
+    cout << "Bukan Usia Anak Maupun Remaja";
+}
+```
+
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
 - https://www.cplusplus.com/reference/cstdio/printf/
 - https://www.petanikode.com/cpp-input-output/
+- https://kelasprogrammer.com/contoh-program-c-if-bersarang-nested-if/
