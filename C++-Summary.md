@@ -26,9 +26,14 @@
   * [Hirarki Operator Aritmatika](#hirarki-operator-aritmatika)
   * [Operator Relasi](#operator-relasi)
   * [Operator Logika](#operator-logika)
+- [Operasi Kondisi](#operasi-kondisi)
+  * [Pengertian](#pengertian-5)
+  * [IF](#if)
+  * [Syntax](#syntax-4)
 - [Refrensi :](#refrensi--)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
