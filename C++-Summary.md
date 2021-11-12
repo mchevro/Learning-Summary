@@ -251,9 +251,29 @@ if(umur <= 10){
     cout << "Bukan Usia Anak Maupun Remaja";
 }
 ```
+
+## Perintah Perulangan
+Beris kode atau instruksi yang dieksekusi oleh komputer secara berulang-ulang sampai suatu kondisi tertentu terpenuhi.
+### For
+Perulangan for merupakan perulangan yang termasuk dalam *couted loop*, karena sudah jelas berapa kali ia akan mengulang.
+#### Syntax
+```c++
+//Template
+for(inisialisasi; kondisi; interasi){
+  pernyataan;
+}
+
+//Example
+for(int i = 0; i <= 5; i++){
+    cout << i << endl;
+}
+```
+
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
 - https://www.cplusplus.com/reference/cstdio/printf/
 - https://www.petanikode.com/cpp-input-output/
 - https://kelasprogrammer.com/contoh-program-c-if-bersarang-nested-if/
+- https://jagongoding.com/python/dasar/perulangan-for/
+- https://www.petanikode.com/cpp-perulangan/
