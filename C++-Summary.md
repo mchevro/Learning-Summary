@@ -1,6 +1,6 @@
 # CPP-Docs
 
-## Daftar Isi 
+## Daftar Isi 📝
 - [Tipe Data](#tipe-data)
 - [Basic Program](#basic-program)
 - [Konstanta](#konstanta)
