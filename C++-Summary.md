@@ -74,7 +74,18 @@ cin >> nama_variable; //Template
 
 cin >> nama_hero; //Example
 ```
+
+## Operator
+### Pengertian
+Operator merupakan simbol atau karakter yang biasa dilibatkan dalam program untuk melakukan sesuatu operasi atau manipulasi, seperti penjumlahan, pengurangan dan lain-lain. <br>
+|   Sifat   |                                            Deskripsi                                           |    Contoh   |
+|:---------:|:----------------------------------------------------------------------------------------------:|:-----------:|
+|  `Unary`  | Sifat unary pada operator adalah hanya melibatkan sebuah operand pada suatu operasi artimatik. |    -5,++5   |
+|  `Binary` |   Sifat binary pada operator adalah melibatkan dua buah operand pada suatu operasi aritmatik.  |    4 + 8    |
+| `Ternary` |  Sifat ternary pada operator adalah melibatkan tiga buah operand pada suatu operasi aritmatik. | (4 + 8) - 2 |
+
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
 - https://www.cplusplus.com/reference/cstdio/printf/
+- https://www.petanikode.com/cpp-input-output/
