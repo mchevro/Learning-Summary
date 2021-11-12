@@ -1,5 +1,34 @@
 # CPP-Docs
 
+## Daftar Isi 
+- [Tipe Data](#tipe-data)
+- [Basic Program](#basic-program)
+- [Konstanta](#konstanta)
+  * [Pengertian](#pengertian)
+  * [Syntax](#syntax)
+- [Variable](#variable)
+  * [Pengertian](#pengertian-1)
+  * [Ketentuan](#ketentuan)
+  * [Syntax](#syntax-1)
+- [Perintah Keluaran](#perintah-keluaran)
+  * [Pengertian](#pengertian-2)
+  * [Syntax](#syntax-2)
+- [Perintah Masukan](#perintah-masukan)
+  * [Pengertian](#pengertian-3)
+  * [Syntax](#syntax-3)
+- [Operator](#operator)
+  * [Pengertian](#pengertian-4)
+  * [Sifat Operator](#sifat-operator)
+  * [Operator Aritmatika](#operator-aritmatika)
+  * [Hirarki Operator Aritmatika](#hirarki-operator-aritmatika)
+  * [Operator Relasi](#operator-relasi)
+  * [Operator Logika](#operator-logika)
+- [Refrensi :](#refrensi--)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 ## Tipe Data
 |       Tipe       | Ukuran Memori |                      Rentang Nilai                     |                  Deskripsi                 | *Format Character  |
 |:----------------:|:-------------:|:------------------------------------------------------:|:------------------------------------------:|:------------------:|
