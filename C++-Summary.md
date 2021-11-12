@@ -36,9 +36,15 @@
     + [Syntax](#syntax-6)
   * [IF - ELSE Majemuk](#if---else-majemuk)
     + [Syntax](#syntax-7)
+- [Perintah Perulangan](#perintah-perulangan)
+  * [For](#for)
+    + [Syntax](#syntax-8)
+  * [Nested For](#nested-for)
+    + [Syntax](#syntax-9)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## Tipe Data
