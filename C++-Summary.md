@@ -113,6 +113,13 @@ Operator relasi digunakan untuk membandingkan dua buah nilai. Hasil dari perband
 |    `<`   |             Kurang Dari             |  10 < 12 |
 |   `<=`   |       Kurang Dari Sama Dengan       | 10 <= 12 |
 
+### Operator Logika
+| Operator | Deskripsi |         Contoh         |
+|:--------:|:---------:|:----------------------:|
+|   `&&`   |    AND    |   true && true = true  |
+|  `\|\|`  |     OR    | true \|\| false = true |
+|    `!`   |    NOT    |      true = false      |
+
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
