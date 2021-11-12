@@ -55,7 +55,7 @@ string nama_hero = "Alucard"; //Example
 
 ## Perintah Keluaran
 ### Pengertian
-Perintah keluar digunakan untuk menampilkan informasi program ke layar.
+Perintah keluar atau output digunakan untuk menampilkan informasi program ke layar.
 ### Syntax
 ```C++
 printf("String", argumen-1, argumen-2, dst); //Template
@@ -65,6 +65,15 @@ printf("Nama Hero : %s \n", nama_hero.c_str()); //Example
 cout << "Nama Hero : " << nama_hero; //Example
 ```
 
+## Perintah Masukan
+### Pengertian 
+Perintah masukan atau input digunakan untuk menerima masukan atau nilai dari user ke dalam program.
+### Syntax
+```C++
+cin >> nama_variable; //Template
+
+cin >> nama_hero; //Example
+```
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
