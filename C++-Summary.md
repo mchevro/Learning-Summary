@@ -1,4 +1,7 @@
 # CPP-Docs
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/67460437/141405878-e3fe0b24-4841-4594-9682-825aeedd3fad.png">
+</p>
 
 ## Daftar Isi 📝
 - [Tipe Data](#tipe-data)
