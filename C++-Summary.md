@@ -166,7 +166,7 @@ Pernyataan if mempunyai pengertian "Jika kondisi bernilai benar, maka perintah a
 ### Syntax
 ```C++
 //Template
-if(Kondisi){
+if(kondisi){
         Pernyataan;
     }
     
