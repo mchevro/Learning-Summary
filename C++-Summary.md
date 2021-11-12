@@ -78,11 +78,29 @@ cin >> nama_hero; //Example
 ## Operator
 ### Pengertian
 Operator merupakan simbol atau karakter yang biasa dilibatkan dalam program untuk melakukan sesuatu operasi atau manipulasi, seperti penjumlahan, pengurangan dan lain-lain. <br>
+
+### Sifat Operator
 |   Sifat   |                                            Deskripsi                                           |    Contoh   |
 |:---------:|:----------------------------------------------------------------------------------------------:|:-----------:|
 |  `Unary`  | Sifat unary pada operator adalah hanya melibatkan sebuah operand pada suatu operasi artimatik. |    -5,++5   |
 |  `Binary` |   Sifat binary pada operator adalah melibatkan dua buah operand pada suatu operasi aritmatik.  |    4 + 8    |
 | `Ternary` |  Sifat ternary pada operator adalah melibatkan tiga buah operand pada suatu operasi aritmatik. | (4 + 8) - 2 |
+
+### Operator Aritmatika
+| Operator |  Deskripsi  | Contoh |
+|:--------:|:-----------:|:------:|
+|    `*`   |  Perkalian  |  4 * 5 |
+|    `/`   |  Pembagian  |  4 / 5 |
+|    `%`   |  Sisa Bagi  |  4 % 5 |
+|    `+`   | Penjumlahan |  4 + 5 |
+|    `-`   | Pengurangan |  4 - 5 |
+
+### Hirarki Operator Aritmatika
+|  Operator  |                                     Deskripsi                                     |
+|:----------:|:---------------------------------------------------------------------------------:|
+| `* atau /` | Tingkatan operator sama, penggunanya tergantung letak, yang di depan didahulukan. |
+|     `%`    |                                   Sisa Pembagian                                  |
+| `- atau +` | Tingkatan operator sama, penggunanya tergantung letak, yang di depan didahulukan. |
 
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
