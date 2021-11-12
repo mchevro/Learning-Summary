@@ -168,16 +168,34 @@ Pernyataan if mempunyai pengertian "Jika kondisi bernilai benar, maka perintah a
 ```C++
 //Template
 if(kondisi){
-        Pernyataan;
-    }
+    Pernyataan;
+}
     
 //Example
 if(10 > 9){
-        cout << "Pernyataan Benar, Karena 10 Lebih Besar Dari 9";
-    }
+    cout << "Pernyataan Benar, Karena 10 Lebih Besar Dari 9";
+}
 
 ```
+### IF - ELSE
+Pernyataan if mempunyai pengertian "Jika kondisi bernilai benar, maka perintah-1 akan dikerjakan dan jika tidak memenuhi syarat maka akan mengerjakan perintah-2 (else)".
 
+#### Syntax
+```C++
+//Template
+if(kondisi){
+    perintah-1;
+}else{
+    perintah-2;
+}
+    
+//Example
+if(10 > 20){
+    cout << "Pernyataan Benar, Karena 20 Lebih Kecil Dari 10";
+}else{
+    cout << "Pernyataan Salah, Karena 20 Lebih Besar Dari 10";
+}
+```
 
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
