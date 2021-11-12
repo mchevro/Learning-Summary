@@ -34,9 +34,12 @@
     + [Syntax](#syntax-5)
   * [Nested IF](#nested-if)
     + [Syntax](#syntax-6)
+  * [IF - ELSE Majemuk](#if---else-majemuk)
+    + [Syntax](#syntax-7)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Tipe Data
 |       Tipe       | Ukuran Memori |                      Rentang Nilai                     |                  Deskripsi                 | *Format Character  |
