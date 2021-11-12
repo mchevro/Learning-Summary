@@ -29,10 +29,11 @@
 - [Operasi Kondisi](#operasi-kondisi)
   * [Pengertian](#pengertian-5)
   * [IF](#if)
-  * [Syntax](#syntax-4)
+    + [Syntax](#syntax-4)
 - [Refrensi :](#refrensi--)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -163,7 +164,7 @@ Operator relasi digunakan untuk membandingkan dua buah nilai. Hasil dari perband
 Pernyataan percabangan digunakan untuk memecahkan persoalan untuk mengambil suatu keputusan di antara sekian pernyataan yang ada.
 ### IF
 Pernyataan if mempunyai pengertian "Jika kondisi bernilai benar, maka perintah akan dikerjakan dan jika tidak memenuhi syarat maka akan diabaikan".
-### Syntax
+#### Syntax
 ```C++
 //Template
 if(kondisi){
