@@ -102,6 +102,17 @@ Operator merupakan simbol atau karakter yang biasa dilibatkan dalam program untu
 |     `%`    |                                   Sisa Pembagian                                  |
 | `- atau +` | Tingkatan operator sama, penggunanya tergantung letak, yang di depan didahulukan. |
 
+### Operator Relasi
+Operator relasi digunakan untuk membandingkan dua buah nilai. Hasil dari perbandingan operator ini menghasilkan nilai numerik 1 (true) atau 0 (false).
+| Operator |              Deskripsi              |  Contoh  |
+|:--------:|:-----------------------------------:|:--------:|
+|   `==`   | Sama Dengan (bukan pemberian nilai) | 10 == 10 |
+|   `!=`   |          Tidak Sama Dengan          | 10 != 12 |
+|    `>`   |              Lebih Dari             |  10 > 8  |
+|   `>=`   |        Lebih Dari Sama Dengan       |  10 >= 8 |
+|    `<`   |             Kurang Dari             |  10 < 12 |
+|   `<=`   |       Kurang Dari Sama Dengan       | 10 <= 12 |
+
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
