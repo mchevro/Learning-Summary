@@ -30,13 +30,13 @@
   * [Pengertian](#pengertian-5)
   * [IF](#if)
     + [Syntax](#syntax-4)
-- [Refrensi :](#refrensi--)
+  * [IF - ELSE](#if---else)
+    + [Syntax](#syntax-5)
+  * [Nested IF](#nested-if)
+    + [Syntax](#syntax-6)
+- [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
-
 
 ## Tipe Data
 |       Tipe       | Ukuran Memori |                      Rentang Nilai                     |                  Deskripsi                 | *Format Character  |
@@ -225,7 +225,7 @@ if(umur <= 18){
 }
 ```
 
-## Refrensi :
+## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
 - https://www.cplusplus.com/reference/cstdio/printf/
