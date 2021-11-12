@@ -152,6 +152,26 @@ Operator relasi digunakan untuk membandingkan dua buah nilai. Hasil dari perband
 |  `\|\|`  |     OR    | true \|\| false = true |
 |    `!`   |    NOT    |      true = false      |
 
+## Operasi Kondisi
+### Pengertian
+Pernyataan percabangan digunakan untuk memecahkan persoalan untuk mengambil suatu keputusan di antara sekian pernyataan yang ada.
+### IF
+Pernyataan if mempunyai pengertian "Jika kondisi bernilai benar, maka perintah akan dikerjakan dan jika tidak memenuhi syarat maka akan diabaikan".
+### Syntax
+```C++
+//Template
+if(Kondisi){
+        Pernyataan;
+    }
+    
+//Example
+if(10 > 9){
+        cout << "Pernyataan Benar, Karena 10 Lebih Besar Dari 9";
+    }
+
+```
+
+
 ## Refrensi :
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
