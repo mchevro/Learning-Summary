@@ -55,9 +55,10 @@
 ## Basic Program
 ```c++
 #include <iostream> //File Header
-using namespace std; //Perintah Untuk Menggunakan Seluruh Library Standart
+using namespace std; //Perintah Untuk Menggunakan Seluruh Library Standard
 
 int main() {
+    //Write Here
     cout << "Hii"; 
     return 0;
 }
