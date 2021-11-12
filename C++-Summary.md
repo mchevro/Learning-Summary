@@ -268,6 +268,26 @@ for(int i = 0; i <= 5; i++){
     cout << i << endl;
 }
 ```
+### Nested For
+Penggunaan nested-for, perulangan yang didalam telebih dahulu dihitung hingga selesai, baru kemudian perulangan yang diluar diselesaikan.
+#### Syntax
+```c++
+//Template
+for(inisialisasi; kondisi; interasi){
+    for(inisialisasi; kondisi; interasi){
+    pernyataan;
+  }
+}
+
+//Example
+for(int x = 1; x <= 5; x++){
+    for(int y = x; y <= 5; y++){
+        cout << x << " ";
+    }
+    cout << endl;
+}
+```
+
 
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
