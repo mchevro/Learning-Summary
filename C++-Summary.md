@@ -258,6 +258,46 @@ if(umur <= 10){
 }
 ```
 
+### Switch - Case
+Bentuk switch case merupakan pernyataan yang dirancang khusus untuk menangani pengambilan keputusan yang melibatkan sejumlah atau banyak alternatif. Pernyataan switch-case ini memiliki kegunaan yang sama seperti if - else majemuk, tetapi untuk memeriksa data yang bertipe karakter atau integer.
+#### Syntax
+```C++
+//Template
+switch(nama_variable){
+  case konstanta-1:
+      perintah;
+      break;
+      
+  case konstanta-2:
+      perintah;
+      break;
+      
+  default:
+      perintah;
+      break;
+}
+
+//Example
+char kode;
+cout << "Input Kode Barang [A,B] : ";
+cin >> kode;
+    
+switch(kode){
+    case 'a':
+    case 'A':
+        cout << "Alat Olah Raga";
+        break;
+        
+    case 'b':
+    case 'B':
+        cout << "Bola Basket";
+        break;
+    default:
+        cout << "Kode Tidak Ada!";
+        break;
+}
+```
+
 ## Perintah Perulangan
 Beris kode atau instruksi yang dieksekusi oleh komputer secara berulang-ulang sampai suatu kondisi tertentu terpenuhi.
 ### For
