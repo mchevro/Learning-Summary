@@ -353,13 +353,11 @@ Variable array adalah tipe terstruktur yang terdiri dari sejumlah elemen yang me
 ### Syntax
 ```C++
 //Template
-tipe_data nama_array[Jumlah_elemen];
+tipe_data nama_array[jumlah_elemen] = {value_array};
 
 //Example
-char kata[5];
-cout << "Input Kata : ";
-cin >> kata;
-cout << "Kata Anda Di Indeks[1]: " << kata[1];
+char kata[5] = {'V','I','D','E','O'};
+cout << "Kata Anda Di Indeks[1] Adalah : " << kata[1];
 ```
 
 
