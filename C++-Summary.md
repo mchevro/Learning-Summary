@@ -45,13 +45,13 @@
   * [Nested For](#nested-for)
     + [Syntax](#syntax-10)
 - [Array](#array)
+  * [Pengertian](#pengertian-6)
+  * [Syntax](#syntax-11)
+  * [Array Satu Dimensi](#array-satu-dimensi)
+  * [Syntax](#syntax-12)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
-
 
 ## Tipe Data
 |       Tipe       | Ukuran Memori |                      Rentang Nilai                     |                  Deskripsi                 | *Format Character  |
