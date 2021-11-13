@@ -5,6 +5,7 @@
 
 ## Daftar Isi 📝
 - [Tipe Data](#tipe-data)
+- [Escape Sequences](#escape-sequences)
 - [Basic Program](#basic-program)
 - [Konstanta](#konstanta)
   * [Pengertian](#pengertian)
@@ -43,9 +44,11 @@
     + [Syntax](#syntax-9)
   * [Nested For](#nested-for)
     + [Syntax](#syntax-10)
+- [Array](#array)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -64,6 +67,13 @@
 |     `Double`     |     8 Byte    |                     +/- 1.8 x 10308                    | Bilangan Dengan Nilai Pecahan Lebih Akurat |                    |
 |     `Boolean`    |               |                       True/False                       | Merepresentasikan Nilai True/False         |                    |
 |     `String`     |               |                                                        | Untuk Membuat Kata                         | %s                 |
+
+## Escape Sequences
+| Symbol |        Description       |
+|:------:|:------------------------:|
+|  `\n`  | Membuat Baris Baru/Enter |
+|  `\t`  | Horizontal Tab           |
+|  `\v`  | Vertical Tab             |
 
 ## Basic Program
 ```c++
