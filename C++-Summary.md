@@ -348,6 +348,7 @@ for(int x = 1; x <= 5; x++){
 ```
 
 ## Array
+### Pengertian
 Variable array adalah tipe terstruktur yang terdiri dari sejumlah elemen yang mempunyai tipe data yang sama. Suatu array mempunyai jumlah elemen yang tetap. Banyaknya elemen dalam array ditunjukkan oleh suatu indeks yang berfungsi untuk membedakan variable yang satu dengan variable lainnya.
 ![image](https://user-images.githubusercontent.com/67460437/141649960-a6455fe1-bbc0-4648-a8a8-7b71af29c726.png)
 ### Syntax
@@ -360,7 +361,8 @@ char kata[5] = {'V','I','D','E','O'};
 cout << "Kata Anda Di Indeks[1] Adalah : " << kata[1];
 ```
 
-### Array 1 Dimensi
+### Array Satu Dimensi
+Array satu dimensi yaitu kumpulan elemen-elemen identik yang hanya terdiri dari satu baris atau hanya satu kolom alamat penyimpanan data (indeks).
 ### Syntax
 ```C++
 //Template
