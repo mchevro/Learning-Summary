@@ -362,6 +362,7 @@ cin >> kata;
 cout << "Kata Anda Di Indeks[1]: " << kata[1];
 ```
 
+
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
