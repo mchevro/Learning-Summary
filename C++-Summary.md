@@ -360,6 +360,24 @@ char kata[5] = {'V','I','D','E','O'};
 cout << "Kata Anda Di Indeks[1] Adalah : " << kata[1];
 ```
 
+### Array 1 Dimensi
+### Syntax
+```C++
+//Template
+tipe_data nama_array[jumlah_elemen] = {value_array};
+
+for(int i = 0; i < jumlah_elemen; i++){
+    cout << "Value Array Index Ke - " << i << " = " << nama_array[i] << endl;
+}
+
+//Example
+string nama[3] = {"UZUMAKI NARUTO", "UCIHA SASUKE", "NARA SHIKAMARU"};
+
+for(int i = 0; i < 3; i++){
+    cout << "Value Array Index Ke - " << i << " = " << nama[i] << endl;
+}
+```
+
 
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
@@ -370,3 +388,4 @@ cout << "Kata Anda Di Indeks[1] Adalah : " << kata[1];
 - https://jagongoding.com/python/dasar/perulangan-for/
 - https://www.petanikode.com/cpp-perulangan/
 - https://en.cppreference.com/w/cpp/language/escape
+- https://www.youtube.com/watch?v=8WhUADLI4RQ
