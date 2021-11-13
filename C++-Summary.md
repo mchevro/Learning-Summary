@@ -361,3 +361,4 @@ Variable array adalah tipe terstruktur yang terdiri dari sejumlah elemen yang me
 - https://kelasprogrammer.com/contoh-program-c-if-bersarang-nested-if/
 - https://jagongoding.com/python/dasar/perulangan-for/
 - https://www.petanikode.com/cpp-perulangan/
+- https://en.cppreference.com/w/cpp/language/escape
