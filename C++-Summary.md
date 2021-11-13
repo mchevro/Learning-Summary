@@ -350,7 +350,17 @@ for(int x = 1; x <= 5; x++){
 ## Array
 Variable array adalah tipe terstruktur yang terdiri dari sejumlah elemen yang mempunyai tipe data yang sama. Suatu array mempunyai jumlah elemen yang tetap. Banyaknya elemen dalam array ditunjukkan oleh suatu indeks yang berfungsi untuk membedakan variable yang satu dengan variable lainnya.
 ![image](https://user-images.githubusercontent.com/67460437/141649960-a6455fe1-bbc0-4648-a8a8-7b71af29c726.png)
+### Syntax
+```C++
+//Template
+tipe_data nama_array[Jumlah_elemen];
 
+//Example
+char kata[5];
+cout << "Input Kata : ";
+cin >> kata;
+cout << "Kata Anda Di Indeks[1]: " << kata[1];
+```
 
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
