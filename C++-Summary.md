@@ -337,6 +337,12 @@ for(int x = 1; x <= 5; x++){
 }
 ```
 
+## Array
+![image](https://user-images.githubusercontent.com/67460437/141609641-c8aa5920-5c0d-4626-9c01-c933bf3f4b9d.png)
+
+
+Variable array adalah tipe terstruktur yang terdiri dari sejumlah elemen yang mempunyai tipe data yang sama. Suatu array mempunyai jumlah elemen yang tetap. Banyaknya elemen dalam array ditunjukkan oleh suatu indeks yang berfungsi untuk membedakan variable yang satu dengan variable lainnya.
+
 
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
