@@ -362,15 +362,13 @@ cout << "Kata Anda Di Indeks[1] Adalah : " << kata[1];
 ```
 
 ### Array Satu Dimensi
+![image](https://user-images.githubusercontent.com/67460437/141698139-729ad887-ab71-4ca1-809c-efc3a0ff43b2.png)
+
 Array satu dimensi yaitu kumpulan elemen-elemen identik yang hanya terdiri dari satu baris atau hanya satu kolom alamat penyimpanan data (indeks).
 ### Syntax
 ```C++
 //Template
 tipe_data nama_array[jumlah_elemen] = {value_array};
-
-for(int i = 0; i < jumlah_elemen; i++){
-    cout << "Value Array Index Ke - " << i << " = " << nama_array[i] << endl;
-}
 
 //Example
 string nama[3] = {"UZUMAKI NARUTO", "UCIHA SASUKE", "NARA SHIKAMARU"};
@@ -381,7 +379,23 @@ for(int i = 0; i < 3; i++){
 ```
 
 ### Array Dua Dimensi
+![image](https://user-images.githubusercontent.com/67460437/141698736-a7f5b9c4-3b41-416a-89e4-2cb79b275de2.png)
+
 Array dua dimensi dalam bentuk baris dan kolom, dimana indeks pertama menunjukkan baris dan indeks kedua menunjukkan kolom.
+#### Syntax
+```C++
+//Template
+tipe_data nama_array[jumlah_baris][jumlah_kolom] = {nilai_array};
+
+//Example
+int nilai[2][5] = {{99, 89, 93, 87, 85}, {77, 85, 55, 64, 78}};
+for(int i=0; i < 2; i++){
+	for(int j=0; j < 5; j++){
+		cout << nilai[i][j] << " ";
+	}
+	cout << endl;
+}
+```
 
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
