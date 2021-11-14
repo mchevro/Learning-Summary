@@ -380,6 +380,9 @@ for(int i = 0; i < 3; i++){
 }
 ```
 
+### Array Dua Dimensi
+Array dua dimensi dalam bentuk baris dan kolom, dimana indeks pertama menunjukkan baris dan indeks kedua menunjukkan kolom.
+
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
@@ -390,9 +393,3 @@ for(int i = 0; i < 3; i++){
 - https://www.petanikode.com/cpp-perulangan/
 - https://en.cppreference.com/w/cpp/language/escape
 - https://www.youtube.com/watch?v=8WhUADLI4RQ
-
-## Author
-<table>
-    <td align="center"><a href="https://github.com/mchevro"><img src="https://avatars1.githubusercontent.com/u/67460437" width="100px;" alt=""/><br /><sub><b>Mahendra Chevro</b></sub></a>
-  </tr>
-</table>
