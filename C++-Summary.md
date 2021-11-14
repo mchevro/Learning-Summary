@@ -48,10 +48,14 @@
   * [Pengertian](#pengertian-6)
   * [Syntax](#syntax-11)
   * [Array Satu Dimensi](#array-satu-dimensi)
-  * [Syntax](#syntax-12)
+    + [Syntax](#syntax-12)
+  * [Array Dua Dimensi](#array-dua-dimensi)
+    + [Syntax](#syntax-13)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 ## Tipe Data
 |       Tipe       | Ukuran Memori |                      Rentang Nilai                     |                  Deskripsi                 | *Format Character  |
@@ -365,7 +369,7 @@ cout << "Kata Anda Di Indeks[1] Adalah : " << kata[1];
 ![image](https://user-images.githubusercontent.com/67460437/141698139-729ad887-ab71-4ca1-809c-efc3a0ff43b2.png)
 
 Array satu dimensi yaitu kumpulan elemen-elemen identik yang hanya terdiri dari satu baris atau hanya satu kolom alamat penyimpanan data (indeks).
-### Syntax
+#### Syntax
 ```C++
 //Template
 tipe_data nama_array[jumlah_elemen] = {value_array};
