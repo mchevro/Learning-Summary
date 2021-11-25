@@ -407,6 +407,27 @@ for(int i=0; i < 2; i++){
 ```C++
 //template 
 tipe_data nama_array[jumlah_baris][jumlah_kolom][jumlah_isi_dari_baris] = {value}
+
+//Syntax
+int penjualan[2][2][5] = { {{99, 89}, {100, 89}}, {{99, 89}, {99, 89}}};
+    
+    cout << "----------------------------------------------------" << endl;
+    cout << "Tahun\t\tHasil\t\tPenjualan Bulan" << endl;
+    cout << "ke\t\tke\t\t-----------------" << endl;
+    cout << "\t\t\t\tJanuari\t| Februari" << endl;
+    cout << "----------------------------------------------------" << endl;
+    
+    
+    for(int i=0; i<2; i++){
+        for(int j=0; j<2; j++){
+            cout << i+1 << "\t\t" << j+1 << "\t\t";
+            for(int k=0; k<2; k++){
+                cout << penjualan[i][j][k] << "\t\t";
+            }
+            cout << endl;
+        }
+        cout << endl;
+    }
 ```
 
 
