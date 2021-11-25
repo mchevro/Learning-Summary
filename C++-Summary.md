@@ -403,12 +403,10 @@ for(int i=0; i < 2; i++){
 ### Array Tiga Dimensi
 ![image](https://user-images.githubusercontent.com/67460437/143504145-93109b7d-04dc-4f81-afc1-5309c6f248cc.png)
 
-Array tiga dimensi tersusun dalam bentuk baris, kolom dan isi baris. dimana indeks pertama menunjukan baris, indeks kedua menunjukan isi dari baris, dan indeks ketiga menunjukkan kolom.
-
 #### Syntax
 ```C++
 //template 
-tipe_data nama_array[jumlah_baris][jumlah_isi_dari_baris][jumlah_kolom] = {value}
+tipe_data nama_array[jumlah_baris][jumlah_kolom][jumlah_isi_dari_baris] = {value}
 ```
 
 
