@@ -409,19 +409,19 @@ for(int i=0; i < 2; i++){
 tipe_data nama_array[jumlah_baris][jumlah_kolom][jumlah_isi_dari_baris] = {value}
 
 //Syntax
-int penjualan[2][2][5] = { {{99, 89}, {100, 89}}, {{99, 89}, {99, 89}}};
+int penjualan[2][2][3] = { {{99, 89, 100}, {100, 89, 20}}, {{99, 89, 50}, {99, 89, 40}} };
     
-    cout << "----------------------------------------------------" << endl;
-    cout << "Tahun\t\tHasil\t\tPenjualan Bulan" << endl;
-    cout << "ke\t\tke\t\t-----------------" << endl;
-    cout << "\t\t\t\tJanuari\t| Februari" << endl;
-    cout << "----------------------------------------------------" << endl;
+    cout << "---------------------------------------------------------------------------" << endl;
+    cout << "Tahun\t\tHasil\t\t\t\tPenjualan Bulan" << endl;
+    cout << "ke\t\tke\t\t-------------------------------------------" << endl;
+    cout << "\t\t\t\t|Januari\t| Februari\t| Maret" << endl;
+    cout << "---------------------------------------------------------------------------" << endl;
     
     
     for(int i=0; i<2; i++){
         for(int j=0; j<2; j++){
             cout << i+1 << "\t\t" << j+1 << "\t\t";
-            for(int k=0; k<2; k++){
+            for(int k=0; k<3; k++){
                 cout << penjualan[i][j][k] << "\t\t";
             }
             cout << endl;
