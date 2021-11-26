@@ -437,7 +437,7 @@ int penjualan[2][2][3] = { {{99, 89, 100}, {100, 89, 20}}, {{99, 89, 50}, {99, 8
 ```
 
 ## Pretty Table
-Fungsi *setiosflags()* merupakan suatu fungsi manipulator yang digunakan untuk mengatur sejumlah format keluaran data. Fungsi ini biasa ada pada fungsi cout(). File header yang harus disertakan adalah file header **<iomanip>**.
+Fungsi *setiosflags()* merupakan suatu fungsi manipulator yang digunakan untuk mengatur sejumlah format keluaran data. Fungsi ini biasa ada pada fungsi cout(). File header yang harus disertakan adalah file header **iomanip**.
 ### Tanda Format. Pertaaan Kiri dan Kanan
 Ada dua buah tanda format yang digunakan untuk perataan kiri dan kanan. Pengaturan lebar variable untuk rata kiri dan kanan ini dilakukan melalui fungsi *setw()*.
 - **ios::left** digunakan untuk mengatur perataan sebelah kiri.
@@ -446,6 +446,8 @@ Ada dua buah tanda format yang digunakan untuk perataan kiri dan kanan. Pengatur
 #### Syntax
 ```C++
 //Example
+#include <iostream>
+#include <iomanip>
 string nama[2][2] = {{"Takiya Genji", "Shun Oguri"}, {"Yoshinobu Kuroiwa", "Suzunosuke Tanaka"}};
     
     cout << "Pemain Crows Zero" << endl;
