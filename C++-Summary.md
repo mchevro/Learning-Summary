@@ -448,7 +448,12 @@ Ada dua buah tanda format yang digunakan untuk perataan kiri dan kanan. Pengatur
 //Example
 #include <iostream>
 #include <iomanip>
-string nama[2][2] = {{"Takiya Genji", "Shun Oguri"}, {"Yoshinobu Kuroiwa", "Suzunosuke Tanaka"}};
+
+using namespace std;
+
+int main()
+{
+    string nama[2][2] = {{"Takiya Genji", "Shun Oguri"}, {"Yoshinobu Kuroiwa", "Suzunosuke Tanaka"}};
     
     cout << "Pemain Crows Zero" << endl;
     cout << "--------------------------------------------" << endl;
@@ -461,6 +466,9 @@ string nama[2][2] = {{"Takiya Genji", "Shun Oguri"}, {"Yoshinobu Kuroiwa", "Suzu
         }
         cout << endl;
     }
+
+    return 0;
+}
 
 ```
 
