@@ -51,9 +51,15 @@
     + [Syntax](#syntax-12)
   * [Array Dua Dimensi](#array-dua-dimensi)
     + [Syntax](#syntax-13)
+  * [Array Tiga Dimensi](#array-tiga-dimensi)
+    + [Syntax](#syntax-14)
+- [Pretty Table](#pretty-table)
+  * [Tanda Format. Pertaaan Kiri dan Kanan](#tanda-format-pertaaan-kiri-dan-kanan)
+    + [Syntax](#syntax-15)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -430,8 +436,31 @@ int penjualan[2][2][3] = { {{99, 89, 100}, {100, 89, 20}}, {{99, 89, 50}, {99, 8
     }
 ```
 
+## Pretty Table
+Fungsi *setiosflags()* merupakan suatu fungsi manipulator yang digunakan untuk mengatur sejumlah format keluaran data. Fungsi ini biasa ada pada fungsi cout(). File header yang harus disertakan adalah file header **<iomanip>**.
+### Tanda Format. Pertaaan Kiri dan Kanan
+Ada dua buah tanda format yang digunakan untuk perataan kiri dan kanan. Pengaturan lebar variable untuk rata kiri dan kanan ini dilakukan melalui fungsi *setw()*.
+- **ios::left** digunakan untuk mengatur perataan sebelah kiri.
+- **ios::right** digunakan untuk mengatur pertaan sebelah kanan.
 
+#### Syntax
+```C++
+//Example
+string nama[2][2] = {{"Takiya Genji", "Shun Oguri"}, {"Yoshinobu Kuroiwa", "Suzunosuke Tanaka"}};
+    
+    cout << "Pemain Crows Zero" << endl;
+    cout << "--------------------------------------------" << endl;
+    cout << "No\tNama Samaran\t\tNama Asli" << endl;
+    cout << "--------------------------------------------" << endl;
+    for(int i=0; i<2; i++){
+        cout << i << "\t";
+        for(int j=0; j<2; j++){
+            cout << setiosflags(ios::left)<<setw(24) << nama[i][j];
+        }
+        cout << endl;
+    }
 
+```
 
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
