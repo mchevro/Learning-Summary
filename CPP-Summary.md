@@ -457,13 +457,13 @@ int main()
     
     cout << "Pemain Crows Zero" << endl;
     cout << "--------------------------------------------" << endl;
-    cout << setiosflags(ios::left) << setw(2) << "No\t";
+    cout << setiosflags(ios::left) << setw(5) << "No";
     cout << setiosflags(ios::left) << setw(24) << "Nama Samaran";
     cout << setiosflags(ios::left) << setw(15) << "Nama Asli";
     cout << endl;
     cout << "--------------------------------------------" << endl;
     for(int i=0; i<2; i++){
-        cout << i << "\t";
+        cout << setiosflags(ios::left) << setw(5) << i+1;
         for(int j=0; j<2; j++){
             cout << setiosflags(ios::left)<<setw(24) << nama[i][j];
         }
@@ -472,7 +472,6 @@ int main()
 
     return 0;
 }
-
 ```
 
 ## Refrensi 
