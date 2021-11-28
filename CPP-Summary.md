@@ -457,7 +457,10 @@ int main()
     
     cout << "Pemain Crows Zero" << endl;
     cout << "--------------------------------------------" << endl;
-    cout << "No\tNama Samaran\t\tNama Asli" << endl;
+    cout << setiosflags(ios::left) << setw(2) << "No\t";
+    cout << setiosflags(ios::left) << setw(24) << "Nama Samaran";
+    cout << setiosflags(ios::left) << setw(15) << "Nama Asli";
+    cout << endl;
     cout << "--------------------------------------------" << endl;
     for(int i=0; i<2; i++){
         cout << i << "\t";
