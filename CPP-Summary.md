@@ -522,6 +522,21 @@ struct
 	elemen_struktur 3;
 	
 }nama_struktur;
+
+//Example
+#include <iostream>
+using namespace std;
+
+int main(){
+    struct{
+        string nama;
+    }mahasiswa;
+    
+    mahasiswa.nama = "Naruto";
+    
+    cout << mahasiswa.nama;
+    return 0;
+}
 ```
 
 ## Refrensi 
