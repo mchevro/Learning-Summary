@@ -479,7 +479,7 @@ Fungsi (function) merupakan blok dari kode yang dirancang untuk melaksanakan tug
 - Untuk mengurangi pengulangan penulisan program yang sama.
 - Agar program menjadi lebih terstruktur sehingga mudah dipahami dan dapat lebih dikembangkan.
 
-### Syntax
+#### Syntax
 ```C++
 //Template
 tipe_data nama_fungsi(argumen){	
@@ -499,6 +499,29 @@ int main(){
     
     return 0;
 }
+```
+
+## Struktur
+Struktur (structure) digunakan untuk mengelompokan sejumlah data yang mempunyai tipe dan ukuran yang berbeda. Variable-variable yang membentuk sebuah struktur dinamakan elemen struktur.
+
+#### Syntax
+```C++
+//Template 1
+struct nama_struktur
+{
+	elemen_struktur 1;
+	elemen_struktur 2;
+	elemen_struktur 3;
+};
+
+//Template 2
+struct
+{
+	elemen_struktur 1;
+	elemen_struktur 2;
+	elemen_struktur 3;
+	
+}nama_struktur;
 ```
 
 ## Refrensi 
