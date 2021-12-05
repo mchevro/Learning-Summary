@@ -474,6 +474,33 @@ int main()
 }
 ```
 
+## Function
+Fungsi (function) merupakan blok dari kode yang dirancang untuk melaksanakan tugas khusus. Kegunaan dari fungsi ini adalah :
+- Untuk mengurangi pengulangan penulisan program yang sama.
+- Agar program menjadi lebih terstruktur sehingga mudah dipahami dan dapat lebih dikembangkan.
+
+### Syntax
+```C++
+//Template
+tipe_data nama_fungsi(argumen){	
+	statemen;
+}
+
+//Example
+#include <iostream>
+using namespace std;
+
+void garis(){
+    cout << "----------------------";
+}
+
+int main(){
+    garis();
+    
+    return 0;
+}
+```
+
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
