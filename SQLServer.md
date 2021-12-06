@@ -89,6 +89,28 @@ ALTER TABLE Mahasiswa
 ADD alamat_mhs varchar(50);
 ```
 
+##### Modify Column
+```sql
+/*Template*/
+ALTER TABLE nama_tabel 
+ALTER COLUMN nama_kolom tipe_data;
+
+/*Example*/
+ALTER TABLE nama_tabel 
+ALTER COLUMN alamat_mhs varchar(30);
+```
+
+##### DROP Column
+```sql
+/*Template*/
+ALTER TABLE nama_tabel 
+DROP nama_kolom;
+
+/*Example*/
+ALTER TABLE Mahasiswa
+DROP alamat_mhs;
+```
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### DROP
