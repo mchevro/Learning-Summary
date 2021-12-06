@@ -9,16 +9,14 @@
   * [Character Strings](#character-strings)
 - [SQL Commands](#sql-commands)
   * [Data Definition Language](#data-definition-language)
-    + [Membuat Database](#membuat-database)
-    + [Hapus Database](#hapus-database)
-    + [Membuat Table](#membuat-table)
-    + [Hapus Table](#hapus-table)
+    + [CREATE](#create)
+      - [Membuat Database](#membuat-database)
+      - [Hapus Database](#hapus-database)
+      - [Membuat Table](#membuat-table)
+      - [Hapus Table](#hapus-table)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
 
 ## Tipe Data
 ### Numerik
