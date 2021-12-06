@@ -103,12 +103,12 @@ ALTER COLUMN alamat_mhs varchar(30);
 ##### DROP Column
 ```sql
 /*Template*/
-ALTER TABLE nama_tabel 
-DROP nama_kolom;
+ALTER TABLE nama_tabel
+DROP COLUMN nama_kolom;
 
 /*Example*/
 ALTER TABLE Mahasiswa
-DROP alamat_mhs;
+DROP COLUMN alamat_mhs;
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
