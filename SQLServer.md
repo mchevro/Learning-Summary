@@ -11,12 +11,17 @@
   * [Data Definition Language](#data-definition-language)
     + [CREATE](#create)
       - [Membuat Database](#membuat-database)
-      - [Hapus Database](#hapus-database)
       - [Membuat Table](#membuat-table)
+    + [ALTER](#alter)
+      - [ADD Column](#add-column)
+    + [DROP](#drop)
+      - [Hapus Database](#hapus-database)
       - [Hapus Table](#hapus-table)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 ## Tipe Data
 ### Numerik
@@ -52,14 +57,6 @@ CREATE DATABASE nama_database;
 /*Example*/
 CREATE DATABASE kampus;
 ```
-##### Hapus Database
-```sql
-/*Template*/
-DROP DATABASE nama_database;
-
-/*Example*/
-DROP DATABASE kampus;
-```
 
 ##### Membuat Table
 ```sql
@@ -73,8 +70,35 @@ CREATE TABLE nama_table(
 CREATE TABLE Mahasiswa(
     npm_mhs varchar(10),
     nama_mhs varchar(30),
-    umur_bhs tinyint
+    umur_mhs tinyint
 );
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### ALTER
+Perintah untuk merubah atau memodifikasi tabel yang sudah ada seperti membuat kolom baru, modifikasi kolom ataupun menghapus kolom.
+##### ADD Column
+```sql
+/*Template*/
+ALTER TABLE nama_tabel 
+ADD nama_kolom tipe_data;
+
+/*Example*/
+ALTER TABLE Mahasiswa
+ADD alamat_mhs varchar(50);
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### DROP
+##### Hapus Database
+```sql
+/*Template*/
+DROP DATABASE nama_database;
+
+/*Example*/
+DROP DATABASE kampus;
 ```
 
 ##### Hapus Table
@@ -89,7 +113,10 @@ DROP TABLE Mahasiswa;
 
 
 
+
+
 ## Refrensi
 - https://www.sqlservertutorial.net/sql-server-basics/sql-server-data-types/
 - https://www.w3schools.com/sql/default.asp
 - https://www.nesabamedia.com/pengertian-ddl/
+- https://www.apacara.com/tutorial/mariadb/alter-table-merubah-menambahkan.html
