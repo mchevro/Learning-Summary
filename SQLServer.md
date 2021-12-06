@@ -68,7 +68,7 @@ CREATE TABLE nama_table(
 
 /*Example*/
 CREATE TABLE Mahasiswa(
-    npm_mhs varchar(10),
+    npm_mhs varchar(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nama_mhs varchar(30),
     umur_mhs tinyint
 );
@@ -131,11 +131,6 @@ DROP TABLE nama_table;
 /*Example*/
 DROP TABLE Mahasiswa;
 ```
-
-
-
-
-
 
 ## Refrensi
 - https://www.sqlservertutorial.net/sql-server-basics/sql-server-data-types/
