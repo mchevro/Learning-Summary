@@ -14,6 +14,8 @@
       - [Membuat Table](#membuat-table)
     + [ALTER](#alter)
       - [ADD Column](#add-column)
+      - [Modify Column](#modify-column)
+      - [DROP Column](#drop-column)
     + [DROP](#drop)
       - [Hapus Database](#hapus-database)
       - [Hapus Table](#hapus-table)
@@ -77,7 +79,7 @@ CREATE TABLE Mahasiswa(
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### ALTER
-Perintah untuk merubah atau memodifikasi tabel yang sudah ada seperti membuat kolom baru, modifikasi kolom ataupun menghapus kolom.
+Perintah untuk merubah atau memodifikasi tabel yang sudah ada, seperti membuat kolom baru, modifikasi kolom ataupun menghapus kolom.
 ##### ADD Column
 ```sql
 /*Template*/
