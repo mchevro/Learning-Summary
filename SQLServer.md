@@ -3,6 +3,20 @@
   <img src="https://user-images.githubusercontent.com/67460437/144825129-7a33d901-6527-41f9-9a7e-502d07bc65d5.png">
 </p>
 
+## Daftar Isi 📝
+- [Tipe Data](#tipe-data)
+  * [Numerik](#numerik)
+  * [Character Strings](#character-strings)
+- [SQL Commands](#sql-commands)
+  * [Data Definition Language](#data-definition-language)
+    + [Membuat Database](#membuat-database)
+    + [Membuat Table](#membuat-table)
+- [Refrensi](#refrensi)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 ## Tipe Data
 ### Numerik
 |   Tipe   | Ukuran Memori |                      Rentang Nilai                     |
