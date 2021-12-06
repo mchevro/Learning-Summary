@@ -10,10 +10,13 @@
 - [SQL Commands](#sql-commands)
   * [Data Definition Language](#data-definition-language)
     + [Membuat Database](#membuat-database)
+    + [Hapus Database](#hapus-database)
     + [Membuat Table](#membuat-table)
+    + [Hapus Table](#hapus-table)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -42,7 +45,8 @@
 </p>
 
 ### Data Definition Language
-#### Membuat Database
+#### CREATE
+##### Membuat Database
 ```sql
 /*Template*/
 CREATE DATABASE nama_database;
@@ -50,8 +54,16 @@ CREATE DATABASE nama_database;
 /*Example*/
 CREATE DATABASE kampus;
 ```
+##### Hapus Database
+```sql
+/*Template*/
+DROP DATABASE nama_database;
 
-#### Membuat Table
+/*Example*/
+DROP DATABASE kampus;
+```
+
+##### Membuat Table
 ```sql
 /*Template*/
 CREATE TABLE nama_table(
@@ -64,7 +76,16 @@ CREATE TABLE Mahasiswa(
     npm_mhs varchar(10),
     nama_mhs varchar(30),
     umur_bhs tinyint
-)
+);
+```
+
+##### Hapus Table
+```sql
+/*Template*/
+DROP TABLE nama_table;
+
+/*Example*/
+DROP TABLE Mahasiswa;
 ```
 
 
