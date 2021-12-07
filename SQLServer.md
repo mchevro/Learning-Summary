@@ -80,7 +80,7 @@ CREATE TABLE Mahasiswa(
 
 #### ALTER
 Perintah untuk merubah atau memodifikasi tabel yang sudah ada, seperti membuat kolom baru, modifikasi kolom ataupun menghapus kolom.
-##### ADD Column
+##### Tambah Column
 ```sql
 /*Template*/
 ALTER TABLE nama_tabel 
@@ -91,7 +91,7 @@ ALTER TABLE Mahasiswa
 ADD alamat_mhs varchar(50);
 ```
 
-##### Modify Column
+##### Edit Column
 ```sql
 /*Template*/
 ALTER TABLE nama_tabel 
@@ -102,7 +102,7 @@ ALTER TABLE nama_tabel
 ALTER COLUMN alamat_mhs varchar(30);
 ```
 
-##### DROP Column
+##### Hapus Column
 ```sql
 /*Template*/
 ALTER TABLE nama_tabel
