@@ -541,6 +541,50 @@ int main(){
 }
 ```
 
+## Object Oriented Programing
+Object Oriented Programming (OOP) adalah sebuah tata cara pembuatan program (programming paradigm) dengan menggunakan konsep “objek” yang memiliki data dan code. Data ini tersedia dalam bentuk field (lebih populer disebut sebagai atribut atau properti), dan code dalam bentuk prosedur (yang dikenal dengan istilah method).
+### Syntax 
+```C++
+//Template
+class Nama_class{
+    Data elemen_class private;
+    
+    public: 
+        Data elemen_class public;
+};
+
+//Example
+class Motor{
+    private:
+        string merk;
+        short speed;
+        
+    public:
+        void daftar(string Merk, short Speed){
+            merk = Merk;
+            speed = Speed;
+        }
+        void run(){
+            cout << "Merk Motor  : " << merk << endl;
+            cout << "Speed       : " << speed << endl;
+        }
+        
+};
+
+int main(){
+    Motor sport;
+    sport.daftar("Duccati", 1200);
+    sport.run();
+    
+    cout << endl;
+    
+    Motor clasic;
+    clasic.daftar("Benelli", 500);
+    clasic.run();
+    return 0;
+}
+```
+
 ## Refrensi 
 - "Buku Panduan Pemrograman C++" Frieyadie
 - https://www.geeksforgeeks.org/c-data-types/
@@ -551,3 +595,4 @@ int main(){
 - https://www.petanikode.com/cpp-perulangan/
 - https://en.cppreference.com/w/cpp/language/escape
 - https://www.youtube.com/watch?v=8WhUADLI4RQ
+- https://www.duniailkom.com/tutorial-belajar-oop-c-plus-plus-pengertian-pemrograman-berorientasi-objek/
