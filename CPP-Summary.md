@@ -56,11 +56,13 @@
 - [Pretty Table](#pretty-table)
   * [Tanda Format. Pertaaan Kiri dan Kanan](#tanda-format-pertaaan-kiri-dan-kanan)
     + [Syntax](#syntax-15)
+- [Function](#function)
+    + [Syntax](#syntax-16)
+- [Struktur](#struktur)
+    + [Syntax](#syntax-17)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 
 
 ## Tipe Data
