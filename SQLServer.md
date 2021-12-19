@@ -13,15 +13,19 @@
       - [Membuat Database](#membuat-database)
       - [Membuat Table](#membuat-table)
     + [ALTER](#alter)
-      - [ADD Column](#add-column)
-      - [Modify Column](#modify-column)
-      - [DROP Column](#drop-column)
+      - [Tambah Column](#tambah-column)
+      - [Edit Column](#edit-column)
+      - [Hapus Column](#hapus-column)
     + [DROP](#drop)
       - [Hapus Database](#hapus-database)
       - [Hapus Table](#hapus-table)
+    + [FOREIGN KEY](#foreign-key)
+      - [CREATE](#create-1)
+      - [ALTER](#alter-1)
 - [Refrensi](#refrensi)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
