@@ -113,18 +113,6 @@ ALTER TABLE Mahasiswa
 DROP COLUMN alamat_mhs;
 ```
 
-##### Tambah Foreign Key
-Perintah ini digunakan ketika column sudah dibuat tetapi lupa membuat foreign key saat **CREATE TABLE**.
-```sql
-/*Template*/
-ALTER TABLE nama_tabel1
-ADD FOREIGN KEY(nama_kolom1) REFERENCES nama_tabel2(nama_kolom2)
-
-/*Example*/
-ALTER TABLE Mahsiswa
-ADD FOREIGN KEY(kode_jur) REFERENCES Jurusan(kode_jur)
-```
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### DROP
@@ -144,6 +132,36 @@ DROP TABLE nama_table;
 
 /*Example*/
 DROP TABLE Mahasiswa;
+```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### FOREIGN KEY
+##### CREATE
+```sql
+/*Template*/
+CREATE TABLE nama_table1(
+    column1 data_type FOREIGN KEY REFERENCES nama_tabel2(nama_kolom2)
+);
+
+/*Example*/
+CREATE TABLE Mahasiswa(
+    npm_mhs varchar(10) NOT NULL PRIMARY KEY,
+    nama_mhs varchar(30),
+    umur_mhs tinyint,
+    kode_jur tinyint FOREIGN KEY REFERENCES Jurusan(kode_jur)
+);
+```
+
+##### ALTER
+Perintah ini digunakan ketika column sudah dibuat tetapi lupa membuat foreign key saat **CREATE TABLE**.
+```sql
+/*Template*/
+ALTER TABLE nama_tabel1
+ADD FOREIGN KEY(nama_kolom1) REFERENCES nama_tabel2(nama_kolom2)
+
+/*Example*/
+ALTER TABLE Mahsiswa
+ADD FOREIGN KEY(kode_jur) REFERENCES Jurusan(kode_jur)
 ```
 
 ## Refrensi
